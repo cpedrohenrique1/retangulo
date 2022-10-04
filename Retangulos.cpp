@@ -2,6 +2,6 @@
 
 int main(){
     TestaRetangulo Obj;
-
+    Obj.menu();
     return 0;
 }
