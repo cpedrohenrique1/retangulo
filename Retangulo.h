@@ -47,16 +47,6 @@ bool Retangulo::setLargura(double aux)
     }
 }
 
-double Retangulo::getComprimento() const
-{
-    return comprimento;
-}
-
-double Retangulo::getLargura() const
-{
-    return largura;
-}
-
 double Retangulo::Perimetro() const
 {
     return ((comprimento * 2) + (largura * 2));

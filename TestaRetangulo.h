@@ -1,8 +1,6 @@
 #ifndef TESTARETANGULO_H_
 #define TESTARETANGULO_H_
 #include "Retangulo.h"
-#include <iostream>
-using namespace std;
 
 class TestaRetangulo{
     private:
@@ -34,7 +32,7 @@ void TestaRetangulo::menu(){
         }while (Objeto->setLargura(entrada) == false);
         cout << "Area: " << Objeto->Area() << "\n";
         cout << "Perimetro: " << Objeto->Perimetro() << "\n";
-        cout << "Digite 0 para sair: ";
+        cout << "Digite 0 para encerrar o programa: ";
         cin >> flag;
     }while (flag != 0);
 }
